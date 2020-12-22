@@ -1,0 +1,18 @@
+.search{
+	margin-left : 40%;
+	margin-bottom : 2%;
+	padding-left : 10px ;
+	padding-top : 3px ;
+	padding-bottom : 3px ;
+	border : 3px solid maroon;
+	border-radius : 40px;
+	outline : none;
+	padding-left : 20px;
+	background : url('search.png') right no-repeat;
+	width : 30px;
+	transition : width 1s;
+}
+
+.search:focus{
+	width : 300px;
+}
